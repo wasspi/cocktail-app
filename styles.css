@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header input {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+}
+
+header button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff6600;
+  color: white;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #e65300;
+}
+
+main {
+  padding: 20px;
+}
+
+#results .cocktail {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+#results .cocktail img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+#cocktailDetails ul {
+  list-style: none;
+  padding: 0;
+}
+
+#cocktailDetails ul li {
+  margin-bottom: 5px;
+}/* ... Votre code existant ... */
+
+/* Ajout des styles pour la grille */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.grid-container .cocktail {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  width: 200px;
+}
+
+.grid-container .cocktail img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer; /* Curseur indiquant que l'image est cliquable */
+}
+
+/* ... Votre code existant ... */

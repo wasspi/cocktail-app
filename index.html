@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recherche de Cocktails</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Recherche de Cocktails</h1>
+    <input type="text" id="searchInput" placeholder="Recherchez un cocktail">
+    <ul id="suggestions"></ul> <!-- Suggestions de fruits -->
+    <button id="searchButton">Rechercher</button>
+  </header>
+
+  <main>
+    <div id="results" class="grid-container"></div> <!-- Affichage en grille -->
+    <div id="cocktailDetails" class="cocktail-details"></div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
